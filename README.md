@@ -1,5 +1,3 @@
-# CS151-CPP-Programming
-
 # CS151: C++ Programming & Concepts
 
 A collection of C++ projects and coursework completed during CS151.
