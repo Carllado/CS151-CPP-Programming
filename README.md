@@ -1,19 +1,36 @@
-# CS151: C++ Programming & Concepts
+# C++ Mini-Projects Repository
 
-A collection of C++ projects and coursework completed during CS151.
+A collection of foundational to intermediate C++ projects, assignments, and mini-applications demonstrating core concepts such as dynamic memory management, pointer arithmetic, object-oriented programming (OOP), standard library containers, and external API integration.
 
-## Key Topics Covered
-- **Pointers & Memory:** Manual memory management, pointer arithmetic, dynamic allocation.
-- **Functions & Structures:** Function overloading, pass-by-reference, custom data structures.
+---
 
-## Featured Mini-Projects
-- **Treasure Hunt Game (`/Mini-Projects/Treasure-Hunt`):** Interactive terminal-based grid game written in C++.
-- **Computer Simulator (`/Mini-Projects/Computer-Simulator`):** C++ implementation modeling basic CPU/memory execution routines.
+## 📂 Project Directory Structure
 
-### Module: Extended Array Manipulation & Offsets
-* **`array_offset_modifier.cpp`**: Safely updates specific ranges of array elements starting at designated offsets with out-of-bounds protection.
-
-### Module: C-Strings, Heap Concatenation & Dynamic 2D Arrays
-* **`custom_strlen.cpp`**: Re-implementation of `strlen()` using character pointer iteration until encountering the null-terminator (`'\0'`).
-* **`string_concat_comparison.cpp`**: Side-by-side implementation comparing low-level heap memory string concatenation (`new char[]` / `delete[]`) with high-level `std::string` concatenation.
-* **`dynamic_2d_board_game.cpp`**: Implementation of a dynamic 2D game board using double pointers (`int**`), custom reveal/hide logic based on cell state values, and proper multi-level heap cleanup routines.
+```text
+Mini-Projects/
+├── Classes-And-Objects/
+│   ├── Makefile
+│   ├── main.cpp
+│   ├── pet.cpp
+│   └── pet.hpp
+├── Dynamic-Memory-And-Pointers/
+│   ├── array_comparison.cpp
+│   ├── array_offset_modifier.cpp
+│   ├── heap_array_duplication.cpp
+│   └── pointer_math_duplication.cpp
+├── Quiz-App/
+│   ├── Makefile
+│   ├── Question.cpp
+│   ├── Question.hpp
+│   ├── Quiz.cpp
+│   ├── Quiz.hpp
+│   └── main.cpp
+├── Strings-And-Dynamic-Arrays/
+│   ├── StandardDeviation.cpp
+│   ├── VectorStats.cpp
+│   ├── WordExtractor.cpp
+│   ├── custom_strlen.cpp
+│   ├── dynamic_2d_board_game.cpp
+│   └── string_concat_comparison.cpp
+└── Treasure-Hunt/
+    └── treasure_hunt_final.cpp
